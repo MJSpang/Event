@@ -26,3 +26,14 @@
     color: #342C37;
     border-radius: 6px;
   }
+
+  /* header */
+header {
+    background-image: url("Images/hero\ image.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: cover;
+  }

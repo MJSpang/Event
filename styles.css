@@ -2,12 +2,12 @@
     display: flex;
     align-items: right;
     justify-content: space-between;
-    padding: 0 10px;
+    padding: 0px;
   }
   
   .nav-logo img {
-    width: 100px;
-    padding: 10px;
+    width: 80px;
+    padding: 0px;
     position: center;
   }
   
@@ -29,11 +29,25 @@
 
   /* header */
 header {
-    background-image: "Images/hero\ image.jpg";
+    background-image: url("images/hero-image.jpg");
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
     width: cover;
+  }
+
+  h1 {
+    text-align: center;
+    font-family: serif;
+    color: white;
+    font-size: 40pt;
+  }
+  
+  h2 {
+    text-align: center;
+    font-family: serif;
+    color: white;
+    font-size: 30pt;
   }

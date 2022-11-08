@@ -1,3 +1,12 @@
+body {
+  background: #3A024A;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* navbar */
+
 .navigation {
     display: flex;
     align-items: right;
@@ -6,7 +15,7 @@
   }
   
   .nav-logo img {
-    width: 80px;
+    width: 60px;
     padding: 0px;
     position: center;
   }
@@ -19,7 +28,7 @@
   nav li a {
     text-decoration: none;
     color: #fff1E5;
-    padding: 10px;
+    padding: 10px 1em;
   }
   
   li a:hover {
@@ -27,7 +36,10 @@
     border-radius: 6px;
   }
 
-  /* header */
+  
+
+  /* hero */
+
 header {
     background-image: url("images/hero-image.jpg");
     height: 100vh;
@@ -41,13 +53,135 @@ header {
   h1 {
     text-align: center;
     font-family: serif;
-    color: white;
+    color: #3A024A;
     font-size: 40pt;
   }
   
   h2 {
     text-align: center;
     font-family: serif;
-    color: white;
-    font-size: 30pt;
+    color: #3A024A;
+    font-size: 25pt;
   }
+
+  .title {
+    padding: 0px 10px;
+    height: 200px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 45%;
+  }
+
+  /* hero button */
+
+  .button-1 {
+    display: inline-block;
+    background: #FFB97C;
+    color: #3A024A;
+    padding: 10px 15px;
+    margin-top: 3rem;
+    border-radius: 50px;
+    text-align:center;
+  }
+  
+  .button-1:hover {
+    opacity: 0.8;
+  }
+
+  /* Chicunamictlan Section */
+
+  h3 {text-align: center;
+  color:#F5D1DA;
+font-size: 32pt;
+padding-top: 32px;
+padding-bottom: 20px;}
+
+  .container {
+    align-items: center;
+    justify-content: center;
+  }
+  
+  img {
+    padding-left: 40px;
+    float: left;    
+ margin: 0 15px 0 0;
+  }
+  
+  .text {
+    font-size: 15pt;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#F5D1DA;
+  }
+  
+  .button-2 {
+    display: inline-block;
+    background: #FFB97C;
+    color: #3A024A;
+    padding: 10px 15px;
+    margin-top: 3rem;
+    border-radius: 50px;
+    text-align:center;
+  }
+
+  h4{color:#F5D1DA;
+    font-size: 25pt;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;}
+
+    .sect3 {align-items: right;
+      margin: 0 0 0 15px;
+    }
+    
+    img {
+      padding-right: 30px;
+    }
+
+    .blockquote {
+      max-width: 700px;
+      margin: 20px 40px;
+      padding: 25px;
+      color: #F5D1DA;
+      box-sizing: border-box;
+    }
+
+    .blockquote-text {
+      line-height: 1.5;
+      margin: 0;
+    }
+    
+    .blockquote-text-credit {
+      font-weight: bold;
+      font-style: normal;
+      text-align: right;
+      font-family: sans-serif;
+    }
+    
+    .blockquote-text-credit::before {
+      content: '\2014 \0020';
+    }
+    
+    .blockquote-text:not(last-child) {
+      margin-bottom: 1.5em;
+    }
+
+    /* Mictlan */
+    .sect2 {
+      background-color: #FCF0F3;
+    }
+    
+    img {
+      padding-left: 40px;    
+    }
+    
+    .text2 {
+      font-size: 15pt;
+      padding-left: 40px;
+      padding-right: 40px;
+      color:#3A024A;
+    }

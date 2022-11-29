@@ -97,6 +97,16 @@ font-size: 32pt;
 padding-top: 32px;
 padding-bottom: 20px;}
 
+h4{color:#F5D1DA;
+  font-size: 25pt;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;}
+
+  p {color:#F5D1DA;
+    font-size: 1.5rem;
+  }
+
 
 
 .card-1-grid img, .card-2-grid img{
@@ -116,7 +126,8 @@ display: flex;
 
 .card-text {
   width: 50%;
-  padding: 1em;
+  padding: 1.5em;
+  margin-right: 30px;
 }
 
 .card-text blockquote {
@@ -125,11 +136,12 @@ display: flex;
 
 .card-image {
   width: 50%;
+  margin-left: 30px;
 }
 
 .image-overlap {
-  margin-top: -35px;
-  margin-left: -100px;
+  margin-top: -70px;
+  margin-left: -160px;
 }
 
 
@@ -185,16 +197,90 @@ display: flex;
       margin:auto;
     }
 
+   
+
     /* Mictlan */
+
+    .mictlan {background-color:#FCF0F3;
+  padding-bottom: 15%;}
+  .mictlan p {
+    margin: 20px 45px;}
     
-    p {
+
+    .card-text-mictlan p:nth-last-child(1) {color:#52006A;
       font-size: 1.5rem;
     }
     
+    .card-text-mictlan h3:nth-child(1) {
+      color: #52006A;
+    }
+
+    .card-text-mictlan h4:nth-child(1) {
+      color: #52006A;
+    }
+
     
 
-    h4{color:#F5D1DA;
-      font-size: 25pt;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      font-weight: bold;}
+    .card-3-grid img, .card-4-grid img, .card-5-grid img{
+      object-fit: cover;
+    }
+
+    .card-5-grid img {
+      order: 3;
+    }
+
+    .card-3-grid img,.card-5-grid img {padding-right: 20px;}
+    .card-4-grid img {padding-left:20px;}
+    
+    
+    
+    @media(max-width:900px) {
+      .card-3-grid, .card-4-grid, .card-5-grid {
+        display: block;
+      }
+    }
+
+
+    .float-left  {
+      float: left;    
+       margin: 0 15px 0 0;
+      }
+
+    .float-right  {
+        float: right;    
+         margin: 0 0 0 15px;
+        }
+
+        .clear {
+          clear: both;
+        }
+    #continuation  {
+      float: left;    
+       margin: 0 15px 0 0;
+      }
+
+        /* Calendar */
+        .container {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 1em;
+        }
+        
+        .card img {
+          width: 100%;
+        }
+        
+        @media (max-width: 800px) {
+          .container {
+            grid-template-columns: repeat(2, 1fr);
+          }
+        }
+        
+        @media (max-width: 600px) {
+          .container {
+            display: block;
+          }
+        }
+        
+    
+

@@ -261,9 +261,31 @@ display: flex;
 
         /* Calendar */
         .container {
-          display: grid;
+          display: flex;
+          justify-content: center;
+          align-items: stretch;
+          gap: 1em
+          /* display: grid;
           grid-template-columns: repeat(3, 1fr);
-          gap: 1em;
+          gap: 1em; */
+        }
+
+        .calendar-card {
+          flex: 1;
+          border: 1px solid #FCF0F3;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          padding: 1.5em;
+        }
+
+        .card-date {
+          position: relative;
+          top: -65px;
+          background: #3A024A;
+          padding: 0 1em;
+          
         }
         
         .card img {
@@ -281,6 +303,66 @@ display: flex;
             display: block;
           }
         }
+
+        .button-3 {
+          display: inline-block;
+          background: #FFB97C;
+          color: #3A024A;
+          padding: 10px 15px;
+          margin-top: 3rem;
+          border-radius: 50px;
+          text-align:center;
+          align-items: center;
+          justify-content: center;
+        }
+        
+        .button-3:hover {
+          opacity: 0.8;
+        }
+
+
+        /* footer */
+    
+footer {
+ background-color: #342C37;
+padding:30px;
+display: flex;
+} 
+
+form {
+  border: 4px ;
+}
+
+
+input[type=text], input[type=submit] {
+  width: 50%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #F5D1DA;
+  box-sizing: border-box;
+  position: center;
+  border-radius: 15px;
+}
+
+input[type=checkbox] {
+  margin-top: 10px;
+}
+
+input[type=submit] {
+  background-color: #F5D1DA;
+  color: #3A024A;
+  border: none;
+  border-radius: 15px;
+}
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+footer p {
+color: #F5D1DA;
+padding:30px;
+}
         
     
 

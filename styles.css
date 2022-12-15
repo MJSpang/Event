@@ -58,10 +58,29 @@ header {
     width: cover;
   }
 
+  .header-place {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: cover;
+   
+  }
+
+
   h1 {
     text-align: center;
     font-family: serif;
     color: #3A024A;
+    font-size: 50pt;
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  .place h1 {
+    text-align: center;
+    font-family: serif;
+    color:#F5D1DA;
     font-size: 50pt;
     font-family: 'Dancing Script', cursive;
   }
@@ -71,9 +90,41 @@ header {
     font-family: serif;
     color: #3A024A;
     font-size: 25pt;
-    font-family: 'Merriweather', serif
+    font-family: 'Merriweather', serif;
+
   }
 
+  .place h2 {
+    text-align: center;
+    font-family: serif;
+    color: #F5D1DA;
+    font-size: 25pt;
+    font-family: 'Merriweather', serif;
+    
+  }
+
+  .history h1 {
+    text-align: center;
+    font-family: serif;
+    color:#F5D1DA;
+    font-size: 45pt;
+    font-family: 'Dancing Script', cursive;
+  }
+  
+
+  .history h2 {
+    text-align: center;
+    font-family: serif;
+    color: #F5D1DA;
+    font-size: 10pt;
+    font-family: 'Merriweather', serif;
+    
+  }
+
+  .history {
+     padding-top: 100px;
+     text-align: center;
+  }
 
   .title {
     /* padding: 0px 10px;
@@ -119,6 +170,7 @@ h4{color:#F5D1DA;
     font-size: 13pt;
     font-family: 'Inter', sans-serif;
     line-height: 20pt;
+    margin:30px
   }
 
 
@@ -314,6 +366,18 @@ padding-right: 2%;}
           padding: 0 1em;
           
         }
+
+        .mexico-card {
+          flex: 1;
+          border: 1px solid #FCF0F3;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          padding: 1.5em;
+          margin-top: 10%;
+          margin-bottom: 10%;
+        }
         
         .card img {
           width: 100%;
@@ -394,6 +458,19 @@ footer p {
 color: #F5D1DA;
 padding:30px;
 text-align: center;
+}
+
+ul li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #fff1E5;
+  padding: 10px 1em;
+  font-family: 'Inter', sans-serif;
+  font-size: 12pt;
+ 
 }
 
         

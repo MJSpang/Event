@@ -43,6 +43,11 @@ position: center;
     border-radius: 6px;
   }
 
+  img .dotd {
+    max-width: 100%;
+    height: auto;
+  }
+
   
 
   /* hero */
@@ -141,16 +146,14 @@ left: 300px;}
   /* hero button */
 
   .button-1 {
-    display: inline-block;
     background: #FFB97C;
     color: #3A024A;
     padding: 10px 15px;
-    margin-top: 25rem;
-    margin-left: 39rem;
     border-radius: 50px;
     text-align:center;
     font-weight: bold;
     font-family: 'Inter', sans-serif;
+  justify-content: center;
   }
   
   .button-1:hover {
@@ -434,6 +437,8 @@ form {
   border: 4px ;
 }
 
+.container h4 {text-align: center;
+text-size-adjust: 15pt;}
 
 input[type=text], input[type=submit] {
   width: 50%;
@@ -468,6 +473,7 @@ text-align: center;
 
 ul li {
   list-style: none;
+  text-align: center;
 }
 
 li a {

@@ -11,25 +11,17 @@ body {
 }
 
 /* navbar */
+  nav {margin: 1.5%;}
 
-.nav {
-position: center;
-    }
-    
-  
-  nav .logo {
-    position: center;
-  }
-  
-  nav ul {
+   ul {
     list-style: none;
-    float: right;
-    position: center;
+    justify-content: center;
+    text-align: right;
   }
-
-  nav ul li{
+  
+  nav ul li {
     display: inline-block;
-  position:center;}
+  }
   
   nav ul li a {
     text-decoration: none;
@@ -43,12 +35,17 @@ position: center;
     border-radius: 6px;
   }
 
-  img .dotd {
+  img.dotd {
     max-width: 100%;
     height: auto;
-    justify-content: center;
+    display: block;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+    margin: auto;
     position: absolute;
-  display: flex;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   
@@ -63,6 +60,7 @@ header {
     background-position: center;
     position: relative;
     width: cover;
+    text-align: center;
   }
 
   .header-place {
@@ -156,13 +154,12 @@ header {
   width: 160px;
   }
 
+ 
   .hero-button {
     position: absolute;
-  top: 50%;
-left: 660px;}
-  
-  .button-1:hover {
-    opacity: 0.8;
+    top: 50%; /* adjust according to your needs */
+    left: 47.9%; /* adjust according to your needs */
+    transform: translate(-50%, -50%); /* center the button */
   }
 
   /* Chicunamictlan Section */
